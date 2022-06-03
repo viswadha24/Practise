@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .contents{
+      width:100%;
+      height:90vh;
+      border:1px solid red;
+      align-items: center;
+      justify-content: center;
+      display:flex;
+      background-size: cover;
+      background-position: top center;
+    position:relative;
+  }
+  .main{
+    height:50px;
+    margin:auto;
+    padding:0px;
+    width:100%;
+    display:flex;
+}
+.login{ 
+    width:40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top:50%;
+    left:50%;
+    display:flex;
+    flex-direction: column;
+    opacity: 0.9;
+}
+  .col-1{
+      width:100%;
+      background-color: rgb(16, 16, 16);
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    padding:20px;
+  }
+  .col-1 h1{
+      text-align: center;
+      justify-content: center;
+      padding:10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color:#e8e7f1;
+  }
+  .form{
+      margin:auto;
+      padding:10px;
+  }
+  .form-1,.form-2,.form-3,.form-4{
+      margin-top: 13px;
+      padding:5px;
+      justify-content: center;
+      display:flex;
+      align-items: center;
+  }
+  .inp{
+      height:40px;
+      width:90%;
+      background-color:#cdd5de;
+      text-align: center;
+      letter-spacing: 3px;
+      color:#15133C;
+  }
+  .inp1{
+      height:100px;
+      width:93%;
+      border:3px solid #15133C;
+  }
+  .btn{
+      margin-top: 10px;
+      align-items: flex-end;
+  }
+  .btn1{
+      width:90%;
+      height:40px;
+      color:rgb(247, 240, 240);
+      background-color: rgb(124, 132, 129);
+      text-align: center;
+      text-decoration: none;
+      padding-top: 2%;
+      color:#15133C;
+  }
+  .btn1:hover{
+      background-color: #15133C;
+      cursor: pointer;
+  }
+
+  .form-1-1{
+    margin-left:30px;
+    margin-top:0px;
+    color:red;
+  }
+  
+  
+  .Teacher,.Student{
+        display:inline-block;
+        vertical-align: middle;
+        width:50%;
+        height:100%;
+  }
+  .btn-1{
+    border-left: 3px solid #cdd5de;
+  }
+  .btn-1,.btn-2{
+      width:100%;
+      height:100%;
+      margin:0px;
+      padding:0px;
+      background-color:#15133C;
+      color:aliceblue;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 2px;
+        cursor: pointer;
+        font-size: larger;
+  }
+  .main1{
+      width:60%;
+      justify-content: center;
+      align-items: center;
+  }
+
+@media only screen and (max-width:950px) and (min-width:550px){
+    .login{
+        width:70%;
+    }
+}
+@media only screen and (max-width:550px){
+    .login{
+        width:100%;
+    }
+}
